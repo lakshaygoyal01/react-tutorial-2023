@@ -1,13 +1,14 @@
 import "./App.css";
 
 function App() {
-  let name = "My App"
+  let name = "ReactApp"
   let className = "App-header"
   console.log("App")
   return (
     <div className='App'>
-      <div className={className}>{name}</div>
+      <div className={className}>{name}
       <Demo />
+      </div>
     </div>
   );
 }
